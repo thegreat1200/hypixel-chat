@@ -10,12 +10,12 @@ API.off(API.CHAT, chatCheck);
 
 var user = function(id){
 var uObject = {
-name = API.getUser(id).username,
-rank = API.getUser(id).role;
-gRank = API.getUser(id).gRole;
-joined = API.getUser(id).joined;
-status = API.getUser(id).status;
-sub = API.getUser(id).sub;
+name: API.getUser(id).username,
+rank: API.getUser(id).role;
+gRank: API.getUser(id).gRole;
+joined: API.getUser(id).joined;
+status: API.getUser(id).status;
+sub: API.getUser(id).sub;
 }
 };
 
