@@ -20,7 +20,6 @@ sub: API.getUser(id).sub,
 };
 
 function chatCheck(data) {
-user(data.uid);
-console.log(uObject.name);
+console.log(user(data.uid).uObject.name);
 }
 }).call(this);
