@@ -45,6 +45,7 @@ if (window.XMLHttpRequest) {
 function chatCheck(data) {
   if (data.type === "emote") {
     getUser(data.uid);
+    console.log(user.prefix);
     if (user.gRole > 0) {
       user.useGRole = true;
     }
